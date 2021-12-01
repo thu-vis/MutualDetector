@@ -476,7 +476,6 @@ const TreeCut = function (bbox_width, bbox_height, layer_height) {
 
     function collapse(node) {
         //collapse all children, namely all children are stored in node.children and node._children is empty
-            //TODO: junlin的版本中做了一个判断，但是不知道为何要做这个判断
         node.children = [];
         if (node.all_children.length > 0){
             node.all_children.forEach(collapse);
@@ -494,7 +493,6 @@ const TreeCut = function (bbox_width, bbox_height, layer_height) {
     //     node.all_children.forEach(update__children);
     // }
 
-    // // 判断两个节点是否是祖先和后代的关系（无先后）
     // function inPath(source, item) {
     //     let node = item;
     //     while (node != null) {
