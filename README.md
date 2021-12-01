@@ -1,6 +1,6 @@
 MutualDetector
 ======================
-Codes for the interactive analysis system, MutualDetector, described in our paper "Towards Better Caption Supervision for Object Detection."
+Codes for the interactive analysis tool, MutualDetector, described in our paper "Towards Better Caption Supervision for Object Detection."
 
 Note: this repository contains the codes for the frontend now. 
 Nevertheless, you can run this repository by following the instructions below. 
