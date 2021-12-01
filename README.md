@@ -1,4 +1,4 @@
-DataLinker
+MutualDetector
 ======================
 Codes for the interactive analysis system, MutualDetector, described in our paper "Towards Better Caption Supervision for Object Detection."
 
