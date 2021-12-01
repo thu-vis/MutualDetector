@@ -12,9 +12,9 @@ You can run this repository with a online data support run on our server by foll
 
 Step 1: install [node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Step 2: npm install
+Step 2: install packages: ```npm install```
 
-Step 3: npm run serve
+Step 3: setup the tool: ```npm run serve```
 
 Step 4: visit http://localhost:20212/ in a browser.
 
