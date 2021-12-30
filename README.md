@@ -10,11 +10,11 @@ Quick Start with Demo Data
 -----------------
 You can run this repository with a online data support run on our server by following the instructions below.
 
-Step 1: install [node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+Step 1: install [node.js](https://nodejs.org/en/download/)
 
-Step 2: install packages: ```npm install```
+Step 2: install packages: run ```npm install``` on the root directory
 
-Step 3: setup the tool: ```npm run serve```
+Step 3: setup the tool: run ```npm run serve``` on the root directory
 
 Step 4: visit http://localhost:20212/ in a browser.
 
