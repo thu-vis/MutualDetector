@@ -347,7 +347,8 @@ export default {
   data: () => ({
     dialog: false,
     popup_width: 900,
-    treecut_type: "F1Score",
+    // treecut_type: "F1Score",
+    treecut_type: "Mismatch",
     items: ["Foo", "Bar", "Fizz", "Buzz"],
     bbox_width: null,
     bbox_height: null,
@@ -458,6 +459,17 @@ export default {
       this.image_view.clean();
       this.text_tree_view.clean();
       this.connection_view.clean();
+    },
+    async reproduce(){
+      let that = this;
+      d3.select("html").attr("style", "overflow-y:hidden");
+      await that.set_selected_node({"full_name": "truck", "id": 7});
+      await that.fetch_word();
+      await that.fetch_single_image_detection_for_focus_text({
+          image_id: 100724
+        });
+      await window.text.set_focus_word({"text": "truck"});
+      await window.image.change_confidence();
     },
     async setGuide() {
       let that = this;

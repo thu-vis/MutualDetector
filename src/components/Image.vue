@@ -22,7 +22,7 @@
           <div class="bounding-label">
             <span style="margin-left: 15px; margin-right: 5px;">Label</span>
             <svg
-              :width="30 + selectClass.length * 8.1"
+              :width="30 + 5 * 8.1"
               height="26"
               style="margin: 0 0 0 0"
             >
@@ -33,7 +33,7 @@
                 x="0"
                 y="0"
                 height="32"
-                :width="30 + selectClass.length * 8.1"
+                :width="30 + 5 * 8.1"
                 style="
                                     fill: rgb(235, 235, 243);
                                     fill-opacity: 1;
@@ -48,7 +48,8 @@
                 dy=".3em"
                 style="opacity: 1"
               >
-                {{ selectClass }}
+                <!-- {{ selectClass }} -->
+                bench
               </text>
             </svg>
           </div>
@@ -234,7 +235,7 @@ import * as Global from "../plugins/global";
 export default {
   name: "DetImage",
   data: () => ({
-    confidence: 50,
+    confidence: 51,
     selectRect: null,
     mode: "unselected",
     isEditing: false,
@@ -293,6 +294,9 @@ export default {
     },
     right_page() {
       this.change_grid_page(1);
+    },
+    change_confidence(){
+      this.confidence = 50;
     },
     update_data() {
       let that = this;
@@ -518,6 +522,7 @@ export default {
           .attr("height", that.grid_size + 4)
           .attr("fill-opacity", 0)
           .on("click", function(_, d) {
+            console.log("show detail", d, d.index);
             that.show_detail(d, d.index);
           });
         if (that.detail_pos !== -1) {

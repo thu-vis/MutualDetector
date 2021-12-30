@@ -214,12 +214,13 @@ export default {
       d3.selectAll('.text-col')
         .transition()
         .duration(this.update_ani)
-        .style('height', `calc(100% - ${bbox.height + 120}px)`);
+        .style('height', `calc(100% - 180px)`);
       bbox = this.text_container.node().getBoundingClientRect();
       d3.selectAll('.text-col-scroller')
         .transition()
         .duration(this.update_ani)
-        .style('height', `${bbox.height}px`);
+        // .style('height', `${bbox.height}px`);
+        .style('height', `380px`);
       // setTimeout(() => {
       //   // console.log("top", this.wordcloud_group.node().getBoundingClientRect().top, 
       //   //   this.wordcloud_group.node().getBoundingClientRect().height);
@@ -244,6 +245,7 @@ export default {
           console.log("click word", ev, d);
           d3.selectAll(".wordcloud").style("text-decoration", "none");
           d3.select("#id-" + d.text).style("text-decoration", "underline");
+          console.log("set focus word", d);
           this.set_focus_word(d);
         });
       word_groups
@@ -347,7 +349,7 @@ export default {
       .select(".wordcloud-col")
       .append("svg")
       .attr("width", this.wordcloud_box_width)
-      .attr("height", this.wordcloud_height);
+      .attr("height", 60.25);
     this.wordcloud_group = this.wordcloud_svg.append("g")
       .attr("id", "wordcloud-group")
       .attr("transform", "translate(" + 0 + ", " + 0 + ")");
@@ -390,7 +392,7 @@ export default {
 }
 
 .text-col {
-  height: calc(70% - 120px);
+  height: calc(70% - 60px);
 }
 
 .scroller {
