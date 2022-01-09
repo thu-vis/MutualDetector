@@ -10,13 +10,17 @@ Quick Start with Demo Data
 -----------------
 You can run this repository with a online data support run on our server by following the instructions below.
 
-Step 1: install [node.js](https://nodejs.org/en/download/)
+Step 1: install [node.js](https://nodejs.org/en/download/) (version >= 12.0)
 
-Step 2: install packages: run ```npm install``` on the root directory
+Step 2: ```git clone git@github.com:thu-vis/MutualDetector.git``` or ```git https://github.com/thu-vis/MutualDetector.git```
 
-Step 3: setup the tool: run ```npm run serve``` on the root directory
+Step 3: ```cd MutualDetector/```
 
-Step 4: visit http://localhost:20212/ in a browser.
+Step 4: run ```npm install``` (install packages)
+
+Step 5: run ```npm run serve``` (run the front-end code)
+
+Step 6: visit http://localhost:20212/ in a browser.
 
 
 ## TODO
