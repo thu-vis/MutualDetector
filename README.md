@@ -10,11 +10,11 @@ Quick Start with Demo Data
 -----------------
 You can run this repository with a online data support run on our server by following the instructions below.
 
-Step 1: install [node.js](https://nodejs.org/en/download/) (version >= 12.0)
+Step 1: install [node.js](https://nodejs.org/en/download/) (version >= 12.0. You can run ```node --version``` to check the version of node.js.)
 
-Step 2: ```git clone git@github.com:thu-vis/MutualDetector.git``` or ```git https://github.com/thu-vis/MutualDetector.git```
+Step 2: download the source code with git (```git clone git@github.com:thu-vis/MutualDetector.git``` or ```git clone https://github.com/thu-vis/MutualDetector.git```) or download the code with "download ZIP"
 
-Step 3: ```cd MutualDetector/```
+Step 3: ```cd MutualDetector/``` (or ```cd MutualDetector-main/``` if you download the code with "download ZIP")
 
 Step 4: run ```npm install``` (install packages)
 
