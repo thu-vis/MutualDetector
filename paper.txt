@@ -1,0 +1,5 @@
+Paper Information
+
+Title: Towards Better Caption Supervision for Object Detection
+Authors: Changjian Chen, Jing Wu, Xiaohan Wang, Shouxing Xiang, Song-Hai Zhang, Qifeng Tang, Shixia Liu
+Operation system: Windows 10
