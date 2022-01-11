@@ -12,6 +12,8 @@ DataLinker is a visual analysis tool for improving object detectors trained on i
 It supports users to 1) explore labels extracted from captions, detected objects detected from images, and their relationships; 2) provide missing labels and validate uncertain bounding boxes to improve the model performance.
 A video demo is available at: https://youtu.be/_Ksp9stN6bw.
 
+https://user-images.githubusercontent.com/23191514/148881923-c81fc7b7-2b8d-47ab-b410-3091740a565f.mp4
+
 
 Quick Start with Demo Data
 -----------------
