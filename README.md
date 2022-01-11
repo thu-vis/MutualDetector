@@ -6,6 +6,13 @@ Note: this repository contains the codes for the frontend now.
 Nevertheless, you can run this repository by following the instructions below. 
 We will clean and release the codes for the backend and the semi-supervised object detection method after April 1, 2022 (VIS 2022 deadline).
 
+Introduction
+--
+DataLinker is a visual analysis tool for improving object detectors trained on image captions and a small number of annotated bounding boxes.
+It supports users to 1) explore labels extracted from captions, detected objects detected from images, and their relationships; 2) provide missing labels and validate uncertain bounding boxes to improve the model performance.
+A video demo is available at: https://youtu.be/_Ksp9stN6bw.
+
+
 Quick Start with Demo Data
 -----------------
 You can run this repository with a online data support run on our server by following the instructions below. This code is tested on Windows 10.
