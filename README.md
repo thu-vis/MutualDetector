@@ -36,7 +36,9 @@ If you use this code for your research, please consider citing:
   author={Chen, Changjian and Wu, Jing and Wang, Xiaohan and Xiang, Shouxing and Zhang, Song-Hai and Tang, Qifeng and Liu, Shixia},
   journal={IEEE Transactions on Visualization and Computer Graphics},
   year={2022},
-  note={to be published, \href{https://doi.org/10.1109/TVCG.2021.3138933}{doi: \textcolor{black}{10.1109/TVCG.2021.3138933}}}
+  volume={28},
+  number={4},
+  pages={1941--1954},
 }
 ```
 

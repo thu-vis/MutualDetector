@@ -1,25 +1,36 @@
-# [CSD: Consistency-based Semi-supervised learning for object Detection](https://papers.nips.cc/paper/9259-consistency-based-semi-supervised-learning-for-object-detection)
+Backend for MutualDetector
+======================
 
-By [Jisoo Jeong](http://mipal.snu.ac.kr/index.php/Jisoo_Jeong), Seungeui Lee, [Jee-soo Kim](http://mipal.snu.ac.kr/index.php/Jee-soo_Kim), [Nojun Kwak](http://mipal.snu.ac.kr/index.php/Nojun_Kwak)
 
-## Installation & Preparation
-We experimented with CSD using the SSD pytorch framework. To use our model, complete the installation & preparation on the [SSD pytorch homepage](https://github.com/amdegroot/ssd.pytorch)
+VOC07 and VOC12
+-----------------
+Step0: install requirements by 'pip install -r requirements.txt'
 
-#### prerequisites
-- Python 3.6
-- Pytorch 1.0.0
+Step1: set the VOC data path to VOC_ROOT in the file data/voc.py
 
-## Supervised learning
-```Shell
-python train_ssd.py
+Step2: run the code
+
+COCO17
+-----------------
+To be added
+
+
+## Citation
+If you use this code for your research, please consider citing:
+```
+@article{chen2022towards,
+  title={Towards Better Caption Supervision for Object Detection},
+  author={Chen, Changjian and Wu, Jing and Wang, Xiaohan and Xiang, Shouxing and Zhang, Song-Hai and Tang, Qifeng and Liu, Shixia},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2022},
+  volume={28},
+  number={4},
+  pages={1941--1954},
+}
 ```
 
-## CSD training
-```Shell
-python train_csd.py
-```
+## Contact
+If you have any problem about this code, feel free to contact
+- ccj17@mails.tsinghua.edu.cn
 
-## Evaluation
-```Shell
-python eval.py
-```
+or describe your problem in Issues.
