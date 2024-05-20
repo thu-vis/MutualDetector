@@ -1,0 +1,6 @@
+torch 1.7.1 cuda110
+opencv-python
+lmdb
+tensorflow==1.15.0
+tensorboardX
+matplotlib
