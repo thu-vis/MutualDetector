@@ -9,6 +9,10 @@ Step0: install requirements by 'pip install -r requirements.txt'
 Step1: set the VOC data path to VOC_ROOT in the file data/voc.py
 
 Step2: run the code
+```
+Our method: python train_csd.py --dataset VOC12 --model 300 --image_level_supervision True --batch_size 32 --supervise_percent 0.25 --semi True
+CSD-SSD: python train_csd.py --dataset VOC12 --model 300 --image_level_supervision True --batch_size 32 --supervise_percent 0 --semi True
+```
 
 COCO17
 -----------------
